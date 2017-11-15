@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="cleartype" content="on">
+    <title>Роботы-Пылесосы Panda | Okami</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+    <link rel="stylesheet" href="feedback/css/jquery.arcticmodal.css">
+    <link href="styles.css?t=undefined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.7"></script>
+    <script src="./js/maplace-0.1.3.min.js"></script>
+    <script src="feedback/js/feedback.js"></script>
+    <script src="feedback/js/jquery.arcticmodal.js"></script>
+    <script src="feedback/js/jquery.jgrowl.js"></script>
+    <script src="scripts/plugins/jquery.xfade-1.0.js"></script>
+    <script src="scripts/common.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="col-md-6 logo">
+                <a href="/">
+                    <img src="./images/logo.png">
+                </a>
+                <p>Фирменный магазин
+                    <br/>роботов-пылесосов Panda | Okami в России</p>
+            </div>
+            <div class="col-md-6 tel">
+                <span>8 495 989-24-07</span>
+                <a href="#" data-toggle="modal" data-target="#zvonok">Заказать звонок</a>
+            </div>
+        </div>
+    </header>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter34260540 = new Ya.Metrika({
+                        id: 34260540,
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true,
+                        webvisor: true
+                    });
+                } catch (e) {}
+            });
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function() {
+                    n.parentNode.insertBefore(s, n);
+                };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript>
+        <div>
+            <img src="https://mc.yandex.ru/watch/34260540" style="position:absolute; left:-9999px;" alt="" />
+        </div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+    <div id="line_1">
+        <div class="container">
+            <div class="col-md-12">
+                <h1>Фирменный магазин
+                    <br/>роботов-пылесосов Panda | Okami
+                    <br/>в России</h1>
+                <div class="center">
+                    <a href="#line_2_1" class="btn scroll">ПОСМОТРЕТЬ НОВИНКИ 2017</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <div id="line_2">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="title">Модельный ряд 2016 года</div>
+                <p class="text">Встречайте обновленную линейку пылесосов Panda текущего года!
+                    <br>Главная особенность пылесосов Panda- запатентованная технология NoBrush.
+                    <br/>Отсутствие центральной турбощетки вкупе с увеличенной мощностью
+                    <br/>делают пылесосы марки Panda лучшим выбором для владельцев домашних животных. </p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-3 item">
+                <img src="./images/product_1.png">
+                <div class="name">Panda X500 Pet Series</div>
+                <div class="model">Стартовая версия (2012)</div>
+                <div class="desc">
+                    <b>Особенности модели X500:</b>
+                    <ul>
+                        <li>Автоматический возврат на базу.</li>
+                        <li>Мощность- 50 Вт.</li>
+                        <li>HEPA-фильтр для очистки воздуха.</li>
+                        <li>Две боковых щетки.</li>
+                        <li>До 110 минут автономной работы.</li>
+                        <li>Управление с пульта ДУ.</li>
+                        <li>Таймер для запуска.</li>
+                        <li>Прошивка ROS 2.0.</li>
+                        <li>Датчики препятствий.</li>
+                        <li>Датчик заполнения пылесборник: нет.</li>
+                        <li>Влажная уборка: нет.</li>
+                        <li>Тип аккумулятора: Ni-Mh 2000 мАч.</li>
+                    </ul>
+                    <div class="text-center">
+                        <a href="#" class="btn" data-toggle="modal" data-target="#zakaz" data-product="Panda X500 Pet Series">Заказать за 17 590
+                            <span class="rouble">a</span>
+                        </a>
+                        <br/>
+                        <a href="/x500.html" class="all">Посмотреть комплектацию</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 item">
+                <img src="./images/product_2.png">
+                <a href="/x600.html" class="all"><div class="name">Panda X600 Pet Series</div></a>
+                <div class="model">Сухая уборка (2015)</div>
+                <div class="desc">
+                    <b>Особенности модели X600:</b>
+                    <ul>
+                        <li>Автоматический возврат на базу.</li>
+                        <li>Мощность- 85 Вт.</li>
+                        <li>HEPA-фильтр для очистки воздуха.</li>
+                        <li>Две боковых щетки.</li>
+                        <li>До 110 минут автономной работы.</li>
+                        <li>Управление с пульта ДУ.</li>
+                        <li>Таймер для запуска.</li>
+                        <li>Прошивка ROS 2.5.</li>
+                        <li>Датчики препятствий и высоты.</li>
+                        <li>Датчик заполнения пылесборника.</li>
+                        <li>Влажная уборка: полотер.</li>
+                        <li>Тип аккумулятора: Ni-Mh 2000 мАч.</li>
+                    </ul>
+                    <div class="text-center">
+                        <a href="#" class="btn" data-toggle="modal" data-target="#zakaz" data-product="Panda X600 Pet Series">Заказать за 17 990
+                            <span class="rouble">a</span>
+                        </a>
+                        <br/>
+                        <a href="/x600.html" class="all">Посмотреть комплектацию</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 item">
+                <img src="./images/product_3.png">
+                <a href="/x900.html" class="all"><div class="name">Panda X900 Wet Clean</div></a>
+                <div class="model">Влажная уборка (2015)</div>
+                <div class="desc">
+                    <b>Особенности модели X900:</b>
+                    <ul>
+                        <li>Автоматический возврат на базу.</li>
+                        <li>Мощность- 85 Вт.</li>
+                        <li>HEPA-фильтр для очистки воздуха.</li>
+                        <li>Две боковых щетки.</li>
+                        <li>До 110 минут автономной работы.</li>
+                        <li>Управление с пульта ДУ.</li>
+                        <li>Таймер для запуска.</li>
+                        <li>Прошивка ROS 2.5.</li>
+                        <li>Датчики препятствий и высоты.</li>
+                        <li>Датчик заполнения пылесборника.</li>
+                        <li>Влажная уборка: контейнер.</li>
+                        <li>Тип аккумулятора: Ni-Mh 2000 мАч.</li>
+                    </ul>
+                    <div class="text-center">
+                        <a href="#" class="btn" data-toggle="modal" data-target="#zakaz" data-product="Panda X900 Wet Clean">Заказать за 21 990
+                            <span class="rouble">a</span>
+                        </a>
+                        <br/>
+                        <a href="/x900.html" class="all">Посмотреть комплектацию</a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <hr/>
+    
+    
+     <div id="line_2_1">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="title">Модельный ряд 2017 года</div>
+                <p class="text">Встречайте ребрендинговую линейку пылесосов Okami нового года!
+                    <br>Повышенная мощность всасывания благодаря технологии ActiveAero 2.0.
+                    <br/>Влажная уборка доступна во всех моделях.
+                    <br/>Уникальное соотношение цены и качества на рынке роботов-пылесосов </p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-3 item">
+                <img src="./images/okami-s80.jpg">
+               <a href="/okami_s80.html" class="all"> <div class="name">Okami S80</div> </a>
+                <div class="model">Новая модель</div>
+                <div class="desc">
+                    <b>Особенности модели S80:</b>
+                    <ul>
+                        <li>Автоматический возврат на базу.</li>
+                        <li>Мощность- 90 Вт.</li>
+                        <li>HEPA-фильтр для очистки воздуха.</li>
+                        <li>Две боковые щетки.</li>
+                        <li>Виртуальная стена: нет.</li>
+                        <li>До 110 минут автономной работы.</li>
+                        <li>Управление с пульта ДУ.</li>
+                        <li>Таймер для запуска.</li>
+                        <li>Прошивка ROS 3.0.</li>
+                        <li>Датчики препятствий.</li>
+                        <li>Датчик заполнения пылесборника: да.</li>
+                        <li>Влажная уборка: контейнер 0,3 л.</li>
+                        <li>Тип аккумулятора: Ni-Mh 2000 мАч.</li>
+                    </ul>
+                    <div class="text-center">
+                        <a href="#" class="btn" data-toggle="modal" data-target="#zakaz" data-product="Okami S80">Заказать за 19 890
+                            <span class="rouble">a</span>
+                        </a>
+                        <br/>
+                        <a href="/okami_s80.html" class="all">Посмотреть комплектацию</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 item">
+                <img src="./images/okami-s90-1.jpg">
+               <a href="/okami_s90.html" class="all"> <div class="name">Okami S90</div></a>
+                <div class="model">Обновленная версия Panda X900 </div>
+                <div class="desc">
+                    <b>Особенности модели S90:</b>
+                    <ul>
+                        <li>Автоматический возврат на базу.</li>
+                        <li>Мощность- 90 Вт.</li>
+                        <li>HEPA-фильтр для очистки воздуха.</li>
+                        <li>Две боковые щетки.</li>
+                        <li>Виртуальная стена: да.</li>
+                        <li>До 110 минут автономной работы.</li>
+                        <li>Управление с пульта ДУ.</li>
+                        <li>Таймер для запуска.</li>
+                        <li>Прошивка ROS 3.0.</li>
+                        <li>Датчики препятствий и высоты.</li>
+                        <li>Датчик заполнения пылесборника: да.</li>
+                        <li>Влажная уборка: контейнер 0,5 л.</li>
+                        <li>Тип аккумулятора: Ni-Mh 2000 мАч.</li>
+                    </ul>
+                    <div class="text-center">
+                        <a href="#" class="btn" data-toggle="modal" data-target="#zakaz" data-product="Okami S90">Предзаказ за 22 990
+                            <span class="rouble">a</span>
+                        </a>
+                        <br/>
+                        <a href="/okami_s90.html" class="all">Посмотреть комплектацию</a>
+                    </div>
+                </div>
+            </div>
+       
+            
+            
+            
+            <div class="col-md-3 item">
+                <img src="./images/okami-s100-1.jpg">
+                <a href="/okami_s100.html" class="all"><div class="name">Okami S100</div></a>
+                <div class="model">Обновленная версия ZX950</div>
+                <div class="desc">
+                    <b>Особенности модели S100:</b>
+                    <ul>
+                        <li>Автоматический возврат на базу.</li>
+                        <li>Мощность- 100 Вт.</li>
+                        <li>Двойной HEPA-фильтр для очистки воздуха.</li>
+                        <li>Две боковых щетки.</li>
+                        <li>До 130 минут автономной работы.</li>
+                        <li>Управление с пульта ДУ.</li>
+                        <li>Таймер для запуска.</li>
+                        <li>Прошивка ROS 3.0+.</li>
+                        <li>Датчики препятствий и высоты.</li>
+                        <li>Датчик заполнения пылесборника.</li>
+                        <li>Влажная уборка: контейнер 0,5 л.</li>
+                        <li>Тип аккумулятора: Li-ion 2600 мАч.</li>
+                    </ul>
+                    <div class="text-center">
+                        <a href="#" class="btn" data-toggle="modal" data-target="#zakaz" data-product="Okami S100">Предзаказ за 27 990
+                            <span class="rouble">a</span>
+                        </a>
+                        <br/>
+                        <a href="/okami_s100.html" class="all">Посмотреть комплектацию</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            </div>
+            
+        
+        
+        
+        
+    </div>
+    <hr/>
+    
+    
+    
+    
+    
+    
+    <div id="line_3">
+        <div class="container">
+            <div class="title">Чем уникальны пылесосы Panda?</div>
+            <div class="col-md-3 col-sm-3 ico">
+                <div class="img">
+                    <img src="./images/line_3_ico_1.png">
+                </div>
+                <p>Без центральной щетки</p>
+            </div>
+            <div class="col-md-3 col-sm-3 ico">
+                <div class="img">
+                    <img src="./images/line_3_ico_2.png">
+                </div>
+                <p>Большая мощность </p>
+            </div>
+            <div class="col-md-3 col-sm-3 ico">
+                <div class="img">
+                    <img src="./images/line_3_ico_3.png">
+                </div>
+                <p>Сами находят базу </p>
+            </div>
+            <div class="col-md-3 col-sm-3 ico">
+                <div class="img">
+                    <img src="./images/line_3_ico_4.png">
+                </div>
+                <p>Уборка по расписанию </p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-3 col-sm-3 ico">
+                <div class="img">
+                    <img src="./images/line_3_ico_5.png">
+                </div>
+                <p>Официальная гарантия </p>
+            </div>
+            <div class="col-md-3 col-sm-3 ico">
+                <div class="img">
+                    <img src="./images/line_3_ico_6.png">
+                </div>
+                <p>Ультрафиолетовая лампа </p>
+            </div>
+            <div class="col-md-3 col-sm-3 ico">
+                <div class="img">
+                    <img src="./images/line_3_ico_7.png">
+                </div>
+                <p>Преодолевает порожки 2 см </p>
+            </div>
+            <div class="col-md-3 col-sm-3 ico">
+                <div class="img">
+                    <img src="./images/line_3_ico_8.png">
+                </div>
+                <p>Без мешка для пыли</p>
+            </div>
+        </div>
+    </div>
+    <div id="line_4">
+        <div class="container">
+            <div class="title">Оплата и доставка</div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="item col-xs-5ths col-xs-12">
+                        <div class="img">
+                            <img src="./images/line_4_ico_1.png">
+                        </div>
+                        <p>Доставка по Москве бесплатно в день заказа</p>
+                    </div>
+                    <div class="item col-xs-5ths col-xs-12">
+                        <div class="img">
+                            <img src="./images/line_4_ico_2.png">
+                        </div>
+                        <p>Доставка по России бесплатно за 2-5 дней</p>
+                    </div>
+                    <div class="item col-xs-5ths col-xs-12">
+                        <div class="img">
+                            <img src="./images/line_4_ico_3.png">
+                        </div>
+                        <p>Оплата при получении товара</p>
+                    </div>
+                    <div class="item col-xs-5ths col-xs-12">
+                        <div class="img">
+                            <img src="./images/line_4_ico_4.png">
+                        </div>
+                        <p>СМС с трек-номером в телефоне</p>
+                    </div>
+                    <div class="item col-xs-5ths col-xs-12">
+                        <div class="img">
+                            <img src="./images/line_4_ico_5.png">
+                        </div>
+                        <p>24/7 информация о статусе доставки</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="line_5">
+        <div class="container">
+            <div class="col-md-4">
+                <div class="title">1 год гарантия</div>
+                <p>
+                    <a href="#" data-toggle="modal" data-target="#serial">Активируйте гарантию </a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <div class="title">24 часа поддержка</div>
+                <p>Быстрое решение проблем</p>
+            </div>
+            <div class="col-md-4">
+                <div class="title">9 сервис-центров</div>
+                <p>по всей Российский Федерации</p>
+            </div>
+        </div>
+    </div>
+    <div id="line_6">
+        <div class="container">
+            <div class="col-md-6">
+                <div class="title">Станьте членом
+                    <br/>Panda-клуба</div>
+                <p>При покупке вы получаете карту Panda-клуба
+                    <br/>и возможность получать скидки
+                    <br/>и бонусы, доступные только держателям карт.</p>
+                <a href="#" class="btn" data-toggle="modal" data-target="#zvonok">Узнать подробнее</a>
+            </div>
+        </div>
+    </div>
+    <div id="line_7">
+        <div class="container">
+            <div class="title">Почему стоит покупать в официальном магазине?</div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="item col-xs-5ths col-xs-12">
+                        <div class="img">
+                            <img src="./images/line_7_ico_1.png">
+                        </div>
+                        <p>Официальный
+                            <br/>товар</p>
+                    </div>
+                    <div class="item col-xs-5ths col-xs-12">
+                        <div class="img">
+                            <img src="./images/line_7_ico_2.png">
+                        </div>
+                        <p>Гарантия лучшего
+                            <br/>качества</p>
+                    </div>
+                    <div class="item col-xs-5ths col-xs-12">
+                        <div class="img">
+                            <img src="./images/line_7_ico_3.png">
+                        </div>
+                        <p>Круглосуточная
+                            <br/>поддержка</p>
+                    </div>
+                    <div class="item col-xs-5ths col-xs-12">
+                        <div class="img">
+                            <img src="./images/line_7_ico_4.png">
+                        </div>
+                        <p>Бесплатная
+                            <br/>доставка</p>
+                    </div>
+                    <div class="item col-xs-5ths col-xs-12">
+                        <div class="img">
+                            <img src="./images/line_7_ico_5.png">
+                        </div>
+                        <p>Грамотные
+                            <br/>консультанты</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <div id="line_8">
+        <div class="container">
+            <div class="title">Отзывы наших клиентов</div>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="col-md-6">
+                            <table width="100%">
+                                <tr>
+                                    <td>
+                                        <img src="./images/otz1.png">
+                                    </td>
+                                    <td>
+                                        <div class="name">Елена Тимофеева</div>
+                                        <p>Приобретала пылесос Панда полгода назад. Качественный аппарат, хорошо экономит время. Детям и котам пришелся по душе, я довольна!. </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <table width="100%">
+                                <tr>
+                                    <td>
+                                        <img src="./images/otz2.png">
+                                    </td>
+                                    <td>
+                                        <div class="name">Павел Мельников</div>
+                                        <p>У меня пылесос х900. Воду не разливает, качественно собирает пыль и грязь. Расходников хватает пока что, износ медленный. </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-6">
+                            <table width="100%">
+                                <tr>
+                                    <td>
+                                        <img src="./images/otz3.png">
+                                    </td>
+                                    <td>
+                                        <div class="name">Андрей Лукьянов</div>
+                                        <p>Увидели с женой этот пылесос у знакомых, заказали в оф магазине такой же, только поновее (600ый). Теперь почти не убираемся) </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <table width="100%">
+                                <tr>
+                                    <td>
+                                        <img src="./images/otz4.png">
+                                    </td>
+                                    <td>
+                                        <div class="name">Илья и Светлана</div>
+                                        <p>Пандочка- наш новый член семьи. Служит верой и правдой уже около года. На базу возвращается правда не всегда, но мы его за это не ругаем. </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-6">
+                            <table width="100%">
+                                <tr>
+                                    <td>
+                                        <img src="./images/otz1.png">
+                                    </td>
+                                    <td>
+                                        <div class="name">Елена Тимофеева</div>
+                                        <p>Приобретала пылесос Панда полгода назад. Качественный аппарат, хорошо экономит время. Детям и котам пришелся по душе, я довольна!. </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <table width="100%">
+                                <tr>
+                                    <td>
+                                        <img src="./images/otz2.png">
+                                    </td>
+                                    <td>
+                                        <div class="name">Павел Мельников</div>
+                                        <p>У меня пылесос х900. Воду не разливает, качественно собирает пыль и грязь. Расходников хватает пока что, износ медленный. </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-6">
+                            <table width="100%">
+                                <tr>
+                                    <td>
+                                        <img src="./images/otz3.png">
+                                    </td>
+                                    <td>
+                                        <div class="name">Андрей Лукьянов</div>
+                                        <p>Увидели с женой этот пылесос у знакомых, заказали в оф магазине такой же, только поновее (600ый). Теперь почти не убираемся)</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <table width="100%">
+                                <tr>
+                                    <td>
+                                        <img src="./images/otz4.png">
+                                    </td>
+                                    <td>
+                                        <div class="name">Илья и Светлана</div>
+                                        <p>Пандочка- наш новый член семьи. Служит верой и правдой уже около года. На базу возвращается правда не всегда, но мы его за это не ругаем. </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="line_9">
+        <div class="container">
+            <div class="title">Наши дилеры и партнеры</div>
+            <div class="links">
+                <span>multirobot.ru</span>
+                <span>panda.moscow</span>
+                <span>hddusb.ru</span>
+                <span>vse-roboty.ru</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div id="line_10">
+            <div class="container">
+                <div class="title">Контактная информация</div>
+                <div class="col-md-4">
+                    <div class="tel">8 (495)
+                        <b>989 24 07</b>
+                    </div>
+                    <div class="sup">8 (985)
+                        <b>635 01 25</b>
+                    </div>
+                    <a href="mailto:info@panda-robotics.ru" class="mail">info@panda-robotics.ru</a>
+                </div>
+                <div class="col-md-4 bordr">
+                    <p style="padding-left:23px;">Наш адрес:
+                        <br/>Москва, ул. Кедрова, 15</p>
+                    <br/>
+                </div>
+                <div class="col-md-4">
+                    <p>Мы работаем без выходных
+                        <br/>с 09.00 до 22.00</p>
+                </div>
+            </div>
+        </div>
+        <div id="line_11"></div>
+        <div class="modal fade" id="zvonok" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <a href="#" class="closed" data-dismiss="modal" aria-label="Close">
+                            <img src="./images/close.png">
+                        </a>
+                        <div class="title">Заказать звонок</div>
+                    </div>
+                    <div class="modal-body">
+                        <form action=" " name="form-1">
+                            <label>ВАШЕ ИМЯ</label>
+                            <input type="text" placeholder="" name="name">
+                            <label>ТЕЛЕФОН</label>
+                            <input type="text" placeholder="" name="tell">
+                            <a href="#" class="btn feedback">Перезвоните мне</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="serial" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <a href="#" class="closed" data-dismiss="modal" aria-label="Close">
+                            <img src="./images/close.png">
+                        </a>
+                        <div class="title">Активация гарантии</div>
+                    </div>
+                    <div class="modal-body">
+                        <form action=" " name="form-2">
+                            <label>СЕРИЙНЫЙ НОМЕР</label>
+                            <input type="text" placeholder="" name="nomer">
+                            <label>ВАШЕ ИМЯ</label>
+                            <input type="text" placeholder="" name="name">
+                            <label>ТЕЛЕФОН</label>
+                            <input type="text" placeholder="" name="tell">
+                            <a href="#" class="btn feedback">Активировать</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="zakaz" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <a href="#" class="closed" data-dismiss="modal" aria-label="Close">
+                            <img src="./images/close.png">
+                        </a>
+                        <div class="title">Оформить заявку</div>
+                    </div>
+                    <div class="modal-body">
+                        <form action=" " name="form-3">
+                            <label>ВАШЕ ИМЯ</label>
+                            <input type="text" placeholder="" name="name">
+                            <label>E-Mail</label>
+                            <input type="text" placeholder="" name="e-mail">
+                            <label>ТЕЛЕФОН</label>
+                            <input type="text" placeholder="" name="tell">
+                            <a href="#" class="btn feedback">Заказать</a>
+                            <input type="hidden" name="product">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!— BEGIN JIVOSITE CODE {literal} —> 
+<script type='text/javascript'> 
+(function(){ var widget_id = '8A1SZ8YaNw';var d=document;var w=window;function l(){ 
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script> 
+<!— {/literal} END JIVOSITE CODE —>
+ООО «Композит М» 1109029, г. Москва ул. Нижегородская д. 32 стр. 15 ОГРН 1127746493115 ИНН 7709906246 КПП 770901001
+</body>
+</html>
